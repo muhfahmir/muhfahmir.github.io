@@ -1,0 +1,74 @@
+.nav-link:hover{
+	cursor: pointer;
+}
+.navbar-brand{
+	font-size: 30px !important;
+}
+.nav-link{
+	font-size: 20px;
+}
+.navbar-nav{
+	margin-left: 10%;
+}
+
+.cardTeam{
+	padding: 20px 15px 3px 15px;
+}
+
+.imgTeam{
+	width: 80px !important;
+}
+
+.titleLeague{
+	position: absolute;
+	margin-top: 50px !important;
+	height: 280px;
+	border-radius: 4px;
+	padding: 5px;
+}
+
+.countryLeague{
+	float: right;
+	margin-top: 145px;
+}
+
+.nameTeam{
+	font-size: 22px;
+}
+
+.rankTeam{
+	float: right; 
+	font-size:28px;
+}
+
+.statusTeam{
+	border-radius: 5px !important;
+	margin-top: 5px;
+	padding: 2px !important;
+	font-size: 15px;
+}
+
+.favTeam{
+	display: inline-block !important;
+	padding: 4px 10px !important;
+	border-radius: 3px !important;
+	margin-top: 10px;
+	transition: 0.5s !important;
+}
+.spinner-grow{
+	width: 3rem; 
+	height: 3rem; 
+	margin-top: 80px !important;
+}
+
+footer{
+	bottom: 0;
+	width: 100%;
+	background-color: #333;
+	padding-top: : 20px;
+}
+
+footer p{
+	color: #aaa;
+	font-size: 0.9em;
+}
