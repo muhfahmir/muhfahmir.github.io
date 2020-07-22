@@ -48,9 +48,9 @@ const getDataBola = (id) =>{
       let colorRank = getRankColor(club.position);
       clubsData+=`
       <div class="col-md-12 col-sm-12 my-3 col-xs-12">
-        <div class="card cardTeam" >
+        <div class="card cardTeam bg-white" >
           <div class="row no-gutters">
-            <div class="col-md-2 col-sm-3 p-3 col-xs-12 text-center">
+            <div class="col-md-2 col-sm-3 pt-3 col-xs-12 text-center">
               <img src="${club.team.crestUrl}" class="card-img imgTeam"alt="${club.team.name}">
             </div>
             <div class="col-md-10 col-sm-9 col-xs-12">

@@ -1,5 +1,6 @@
 .nav-link:hover{
 	cursor: pointer;
+	opacity: 0.8s;
 }
 .navbar-brand{
 	font-size: 30px !important;
@@ -12,7 +13,7 @@
 }
 
 .cardTeam{
-	padding: 20px 15px 3px 15px;
+	padding: 20px 10px 3px 15px;
 }
 
 .imgTeam{
