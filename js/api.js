@@ -26,7 +26,7 @@ const getDataBola = (id) =>{
   fetchApi(urlClasement).then((response) => {
     return response.json();
   }).then((data) => {
-    console.log(data);
+    // console.log(data);
     // console.log(`${data.competition.name},${data.season.startDate},${data.season.endDate},${data.competition.area.name}`)
     let indexColor = Math.floor(Math.random()*7);
     let bgColor = getBgColor(indexColor);
